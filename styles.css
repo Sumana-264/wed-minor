@@ -1,0 +1,63 @@
+/* CSS Document */
+.profile{
+	background-color:#2E8B57;
+	
+}
+.header{
+	color: #F8F8F2;
+	background-color:#6F3662;
+	padding:20px 15px;
+	font-family:"Comic Sans MS", cursive;
+}
+.nav{
+	color: #000;
+	background-color:#00FFFF;
+	font-family:"Comic Sans MS", cursive;
+}
+.nav a{
+	color:#000;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	padding:20px 15px;
+}
+.nav a:hover{
+	color:#000;
+	background:#F8F8F2;
+}
+.body{
+	color: #000;
+	background-color:#DDA0DD;
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+.footer{
+	color: #000;
+	background-color:#FFE4E1;
+	font-family:"Comic Sans MS", cursive;;
+}
+/*desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+	
+}
+/*tabs*/
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+	.nav a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	font-size:12px;
+	padding:15px 10px;
+}
+}
+/*mobiles*/
+@media only screen and (max-width: 420px){
+	.nav a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	font-size:9px;
+	padding:10px 5;
+}
+	
+}
